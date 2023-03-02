@@ -15,8 +15,11 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
-
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 
 
 class Gaaaa3333Fragment : Fragment() {
@@ -42,6 +45,7 @@ class Gaaaa3333Fragment : Fragment() {
         Log.d("lolo", "Gaaaa333Fragment")
         Log.d("lolo", "Gaaaa3333Fragment model $gtgtgtgt")
 
+
         gtgtgtgt.mainId.observe(viewLifecycleOwner) {
             if (it != null) {
                 val h59hy95 = it.toString()
@@ -59,10 +63,14 @@ class Gaaaa3333Fragment : Fragment() {
                 hy0hju0ju62uj = it.muenolinka
 
                 hy55hy59hy.edit().putString(gt95hy5hy5hy59hy, hy2hy26ju2ju).apply()
-                hy55hy59hy.edit().putString(Odfkrfokofrkorf.tghy5h59hy59hy, hy5hy5hy995hy95hy).apply()
+                hy55hy59hy.edit().putString(Odfkrfokofrkorf.tghy5h59hy59hy, hy5hy5hy995hy95hy)
+                    .apply()
                 hy55hy59hy.edit().putString(bngjhy2hy26hy2yhhythgthtghgt, hy0hju0ju62uj).apply()
 
-                hrfhirfhhrf()
+
+                findNavController().navigate(R.id.action_gaaaa3333Fragment_to_gaaaaa444Fragment)
+
+
             }
         }
     }

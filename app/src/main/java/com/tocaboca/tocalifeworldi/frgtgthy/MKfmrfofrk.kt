@@ -4,6 +4,7 @@ import android.app.Application
 import android.content.Context
 import android.content.SharedPreferences
 import android.util.Log
+import android.widget.Toast
 import com.tocaboca.tocalifeworldi.btgtgthyhy.Jifigtjgtjhjhyhyhy
 import com.tocaboca.tocalifeworldi.defrgtgtt.Jfrjjigtijgijgtgtjigt
 import com.tocaboca.tocalifeworldi.dergbgy.Odfkrfokofrkorf.gtjjgtjgtjgtjt
@@ -110,7 +111,12 @@ class MKfmrfofrk(
         ) { data: AppLinkData? ->
             data?.let {
                 val gtkogtko = data.targetUri?.host.toString()
+                Toast.makeText(gtjoigtoji, "Deep is ${gtkogtko}", Toast.LENGTH_SHORT).show()
+
                 jhyujukikiik.edit().putString("deepSt", gtkogtko).apply()
+            }
+            if (data == null){
+                Toast.makeText(gtjoigtoji, "Deep налл тут", Toast.LENGTH_SHORT).show()
             }
         }
     }

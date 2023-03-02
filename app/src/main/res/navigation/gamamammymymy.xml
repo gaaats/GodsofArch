@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gamamammymymy"
+    app:startDestination="@id/gaa11111Fragment">
+
+    <fragment
+        android:id="@+id/gaa11111Fragment"
+        android:name="com.tocaboca.tocalifeworldi.Gaa11111Fragment"
+        android:label="fragment_gaa11111"
+        tools:layout="@layout/fragment_gaa11111" >
+        <action
+            android:id="@+id/action_gaa11111Fragment_to_gaaaa222Fragment"
+            app:destination="@id/gaaaa222Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gaaaa222Fragment"
+        android:name="com.tocaboca.tocalifeworldi.Gaaaa222Fragment"
+        android:label="fragment_gaaaa222"
+        tools:layout="@layout/fragment_gaaaa222" >
+        <action
+            android:id="@+id/action_gaaaa222Fragment_to_gaaaa3333Fragment"
+            app:destination="@id/gaaaa3333Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gaaaa3333Fragment"
+        android:name="com.tocaboca.tocalifeworldi.Gaaaa3333Fragment"
+        android:label="fragment_gaaaa3333"
+        tools:layout="@layout/fragment_gaaaa3333" >
+        <action
+            android:id="@+id/action_gaaaa3333Fragment_to_gaaaaa444Fragment"
+            app:destination="@id/gaaaaa444Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gaaaaa444Fragment"
+        android:name="com.tocaboca.tocalifeworldi.Gaaaaa444Fragment"
+        android:label="fragment_gaaaaa444"
+        tools:layout="@layout/fragment_gaaaaa444" >
+        <action
+            android:id="@+id/action_gaaaaa444Fragment_to_gaaaa555Fragment"
+            app:destination="@id/gaaaa555Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gaaaa555Fragment"
+        android:name="com.tocaboca.tocalifeworldi.Gaaaa555Fragment"
+        android:label="fragment_gaaaa555"
+        tools:layout="@layout/fragment_gaaaa555" />
+</navigation>

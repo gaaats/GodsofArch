@@ -33,7 +33,9 @@ class Gaaaa222Fragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
 
+
         Log.d("lolo", "Gaaaa222Fragment")
+        Log.d("lolo", "Gaaaa222Fragment model $gtjiogtjgtjijgt")
         higthigtihgthgthgthgt()
     }
 

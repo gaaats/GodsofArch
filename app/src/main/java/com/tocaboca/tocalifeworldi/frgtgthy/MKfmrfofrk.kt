@@ -61,6 +61,9 @@ class MKfmrfofrk(
 
 
     init {
+
+        Log.d("lolo", "mainvievmodel created")
+
         viewModelScope.launch(Dispatchers.IO) {
             gthuigthgt()
         }

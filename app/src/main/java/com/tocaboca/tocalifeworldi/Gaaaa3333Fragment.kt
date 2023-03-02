@@ -40,6 +40,8 @@ class Gaaaa3333Fragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         Log.d("lolo", "Gaaaa333Fragment")
+        Log.d("lolo", "Gaaaa3333Fragment model $gtgtgtgt")
+
         gtgtgtgt.mainId.observe(viewLifecycleOwner) {
             if (it != null) {
                 val h59hy95 = it.toString()

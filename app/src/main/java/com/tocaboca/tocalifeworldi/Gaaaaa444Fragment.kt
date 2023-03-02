@@ -42,6 +42,9 @@ class Gaaaaa444Fragment : Fragment() {
         val g5t955gt595gt = sharePgtgtgt.getString(tghy5h59hy59hy, null)
         val hg5hy59hyhy59hy = sharePgtgtgt.getString("appCamp", null)
 
+        Log.d("lolo", "Gaaaa4444Fragment model $gthgtgthuggt")
+
+
         if (g5t955gt595gt=="1" &&hg5hy59hyhy59hy == null) {
             gthgtgthuggt.gtthyhyhy(mContextgtgtgt)
             gthgtgthuggt.hghyhyhyhyhy.observe(viewLifecycleOwner) {

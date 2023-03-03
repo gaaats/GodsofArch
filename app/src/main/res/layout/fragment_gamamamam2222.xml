@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gaam"
-    tools:context=".Gamamamam2222Fragment">
+    tools:context=".gthyujujujuj.Gamamamam2222Fragment">
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/top"

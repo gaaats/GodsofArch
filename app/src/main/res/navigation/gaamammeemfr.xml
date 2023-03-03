@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/gamamamm11111Fragment"
-        android:name="com.tocaboca.tocalifeworldi.Gamamamm11111Fragment"
+        android:name="com.tocaboca.tocalifeworldi.gttghyhyjyuj.Gamamamm11111Fragment"
         android:label="fragment_gamamamm11111"
         tools:layout="@layout/fragment_gamamamm11111" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/gamamamam2222Fragment"
-        android:name="com.tocaboca.tocalifeworldi.Gamamamam2222Fragment"
+        android:name="com.tocaboca.tocalifeworldi.gthyujujujuj.Gamamamam2222Fragment"
         android:label="fragment_gamamamam2222"
         tools:layout="@layout/fragment_gamamamam2222" >
         <action

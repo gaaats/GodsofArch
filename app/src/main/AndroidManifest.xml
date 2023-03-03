@@ -23,16 +23,16 @@
         android:theme="@style/Theme.GodsOfArch"
         tools:targetApi="31">
         <activity
-            android:name=".VebbgtugtuhgtActivity2"
+            android:name=".vgbgfrfr.VebbgtugtuhgtActivity2"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="false"
             android:windowSoftInputMode="adjustResize"/>
         <activity
-            android:name=".GammamamammumumummjuActivity2"
+            android:name=".vfbyuj.GammamamammumumummjuActivity2"
             android:screenOrientation="portrait"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".vgbgfrfr.MainActivity"
             android:screenOrientation="portrait"
             android:launchMode="singleInstance"
             android:exported="true">

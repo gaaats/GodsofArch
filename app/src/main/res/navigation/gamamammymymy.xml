@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/gaa11111Fragment"
-        android:name="com.tocaboca.tocalifeworldi.Gaa11111Fragment"
+        android:name="com.tocaboca.tocalifeworldi.dergbgy.Gaa11111Fragment"
         android:label="fragment_gaa11111"
         tools:layout="@layout/fragment_gaa11111" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/gaaaa222Fragment"
-        android:name="com.tocaboca.tocalifeworldi.Gaaaa222Fragment"
+        android:name="com.tocaboca.tocalifeworldi.frgtgthy.Gaaaa222Fragment"
         android:label="fragment_gaaaa222"
         tools:layout="@layout/fragment_gaaaa222" >
         <action
@@ -25,7 +25,7 @@
     </fragment>
     <fragment
         android:id="@+id/gaaaa3333Fragment"
-        android:name="com.tocaboca.tocalifeworldi.Gaaaa3333Fragment"
+        android:name="com.tocaboca.tocalifeworldi.gthyhyyh.Gaaaa3333Fragment"
         android:label="fragment_gaaaa3333"
         tools:layout="@layout/fragment_gaaaa3333" >
         <action
@@ -34,7 +34,7 @@
     </fragment>
     <fragment
         android:id="@+id/gaaaaa444Fragment"
-        android:name="com.tocaboca.tocalifeworldi.Gaaaaa444Fragment"
+        android:name="com.tocaboca.tocalifeworldi.gthyjjkikikkiik.Gaaaaa444Fragment"
         android:label="fragment_gaaaaa444"
         tools:layout="@layout/fragment_gaaaaa444" >
         <action
@@ -43,7 +43,7 @@
     </fragment>
     <fragment
         android:id="@+id/gaaaa555Fragment"
-        android:name="com.tocaboca.tocalifeworldi.Gaaaa555Fragment"
+        android:name="com.tocaboca.tocalifeworldi.gthyhyjuuj.Gaaaa555Fragment"
         android:label="fragment_gaaaa555"
         tools:layout="@layout/fragment_gaaaa555" />
 </navigation>

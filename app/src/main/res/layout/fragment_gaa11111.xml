@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/grad"
     android:layout_height="match_parent"
-    tools:context=".Gaa11111Fragment">
+    tools:context=".dergbgy.Gaa11111Fragment">
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/ghyhyhy"
